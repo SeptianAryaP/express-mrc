@@ -1,0 +1,12 @@
+### create data siswa
+POST http://localhost:9000/api/siswa/create
+Content-Type: application/json
+
+{
+  "nama_lengkap"  :"arumi hanifah",       
+  "usia"          : 2,
+  "alamat"        : "medan",
+  "phone"         : "0341",
+  "email"         : "ubum@gmail.com",
+  "nis"           : "123"
+}
